@@ -1,3 +1,5 @@
+![The Search Project With Text Embeddings](https://i.imgur.com/j9KLke6.png)
+
 ## About
 
 This project has been created to demonstrate how we can build modern Search Engines using a straightforward structure of Text Embeddings (Huggingface Transformers) and a Vector Database.
