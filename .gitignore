@@ -1,0 +1,5 @@
+node_modules/
+mongo-data/
+qdrant-data/
+storage/
+.idea/

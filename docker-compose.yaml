@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  mongo:
+    image: mongo:latest
+    restart: always
+    volumes:
+      - ./mongo-data:/data/db
+    ports:
+      - "127.0.0.1:27019:27017"
+
+  qdrant:
+    image: qdrant/qdrant
+    volumes:
+      - "./qdrant-data:/qdrant/storage"
+    ports:
+      - "127.0.0.1:6336:6333"

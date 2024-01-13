@@ -1,0 +1,22 @@
+{
+  "name": "data-worker",
+  "version": "1.0.0",
+  "description": "Pulling Data from common crawl and vectorizing texts we need",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "author": "Tigran Bayburtsyan",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/uuid": "^9.0.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@qdrant/js-client-rest": "^1.7.0",
+    "axios": "^1.6.5",
+    "mongodb": "^6.3.0",
+    "uuid": "^9.0.1"
+  }
+}
